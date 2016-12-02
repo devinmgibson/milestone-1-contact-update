@@ -1,0 +1,24 @@
+{
+  "name": "milestone-1-contact-update",
+  "version": "1.0.0",
+  "description": "send an email to contact kool-aid",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devinmgibson/milestone-1-contact-update.git"
+  },
+  "author": "devinmgibson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devinmgibson/milestone-1-contact-update/issues"
+  },
+  "homepage": "https://github.com/devinmgibson/milestone-1-contact-update#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0"
+  }
+}
