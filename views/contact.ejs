@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <!-- unless otherwise stated all css styling can be found here -->
     <link rel="stylesheet" type="text/css" href="/styles/bootstrap.css">
-    <script type="text/javascript" src="../public/js/validate.js"></script>
+    <script type="text/javascript" src="/js/validate.js"></script>
     <!-- use Google font Raleway -->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <!-- use Google font Roboto slab -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/sodacans_favicon.png">
+    <link rel="icon" type="image/png" href="/images/sodacans_favicon.png">
     <title>Kool-Aid: God's Essence</title>
   </head>
 
@@ -40,7 +40,7 @@
           afterlife.
         </p>
       </div>
-      <form name="contactShaedy" onsubmit="return validateForm()">
+      <form name="contactShaedy" onsubmit="return validateForm()" method="post" action="/">
         <div id="contact-form">
           <input type="text" name="firstname" placeholder="First Name" style="float: left; width: 45%; margin-bottom: 25px;">
           <input type="text" name="lastname" placeholder="Last Name" style="float: right; width: 45%; margin-bottom: 25px;">
